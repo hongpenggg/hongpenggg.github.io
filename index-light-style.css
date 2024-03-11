@@ -138,13 +138,13 @@
 .nav-link-active {
     margin-left: 4%;
     margin-right: 4%;
-    color: black;
+    color: #34C8FC;
 }
 
 .nav-link {
     margin-left: 4%;
     margin-right: 4%;
-    color: grey;
+    color: black;
 }
 
 #random-button {
