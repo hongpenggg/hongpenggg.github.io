@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import SectionContainer from '../SectionContainer';
 import { SOCIAL_LINKS } from '../../constants';
-import { Send, Loader2 } from 'lucide-react';
+import { Send, Loader2, CheckCircle, AlertCircle } from 'lucide-react';
 
 interface ContactProps {
   isDarkMode: boolean;
@@ -13,21 +13,43 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
     email: '',
     message: ''
   });
-  const [status, setStatus] = useState<'idle' | 'submitting' | 'success'>('idle');
+  const [status, setStatus] = useState<'idle' | 'submitting' | 'success' | 'error'>('idle');
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData(prev => ({ ...prev, [e.target.name]: e.target.value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('submitting');
-    // Simulate API call
-    setTimeout(() => {
-      setStatus('success');
-      setFormData({ name: '', email: '', message: '' });
-      setTimeout(() => setStatus('idle'), 3000);
-    }, 1500);
+
+    try {
+      const response = await fetch('https://formspree.io/f/xgveepeb', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          _subject: `Portfolio Contact: Message from ${formData.name}`
+        })
+      });
+
+      if (response.ok) {
+        setStatus('success');
+        setFormData({ name: '', email: '', message: '' });
+        setTimeout(() => setStatus('idle'), 5000);
+      } else {
+        setStatus('error');
+        setTimeout(() => setStatus('idle'), 5000);
+      }
+    } catch (error) {
+      console.error('Form submission error:', error);
+      setStatus('error');
+      setTimeout(() => setStatus('idle'), 5000);
+    }
   };
 
   const inputClasses = `w-full px-4 py-3 rounded-xl outline-none transition-all duration-300 border backdrop-blur-sm
@@ -102,6 +124,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
                 onChange={handleChange}
                 className={inputClasses}
                 placeholder="John Doe"
+                disabled={status === 'submitting'}
               />
             </div>
             
@@ -116,6 +139,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
                 onChange={handleChange}
                 className={inputClasses}
                 placeholder="john@example.com"
+                disabled={status === 'submitting'}
               />
             </div>
             
@@ -130,8 +154,23 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
                 onChange={handleChange}
                 className={`${inputClasses} resize-none`}
                 placeholder="Tell me about your project..."
+                disabled={status === 'submitting'}
               />
             </div>
+
+            {status === 'success' && (
+              <div className="flex items-center gap-2 p-3 rounded-lg bg-green-500/10 border border-green-500/20">
+                <CheckCircle size={20} className="text-green-500" />
+                <p className="text-sm text-green-600 dark:text-green-400">Message sent successfully! I'll get back to you soon.</p>
+              </div>
+            )}
+
+            {status === 'error' && (
+              <div className="flex items-center gap-2 p-3 rounded-lg bg-red-500/10 border border-red-500/20">
+                <AlertCircle size={20} className="text-red-500" />
+                <p className="text-sm text-red-600 dark:text-red-400">Failed to send message. Please try again or email me directly.</p>
+              </div>
+            )}
 
             <button
               type="submit"
@@ -144,6 +183,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
                     : 'bg-slate-900 hover:bg-slate-800 text-white shadow-xl shadow-slate-200'
                 }
                 ${status === 'submitting' ? 'opacity-80 cursor-wait' : ''}
+                disabled:opacity-50 disabled:cursor-not-allowed
               `}
             >
               {status === 'submitting' ? (
@@ -151,7 +191,9 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
                   <Loader2 size={20} className="animate-spin" /> Sending...
                 </>
               ) : status === 'success' ? (
-                <>Message Sent!</>
+                <>
+                  <CheckCircle size={20} /> Message Sent!
+                </>
               ) : (
                 <>
                   Send Message <Send size={18} />
