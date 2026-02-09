@@ -163,7 +163,7 @@ const Contact: React.FC<ContactProps> = ({ isDarkMode }) => {
       </div>
       
        <footer className={`absolute bottom-4 left-0 right-0 text-center text-xs opacity-50 ${isDarkMode ? 'text-gray-500' : 'text-slate-400'}`}>
-        <p>Designed & Built by Hongpeng Wei © {new Date().getFullYear()}</p>
+        <p>© Hongpeng Wei, {new Date().getFullYear()}. All rights reserved.</p>
       </footer>
     </SectionContainer>
   );

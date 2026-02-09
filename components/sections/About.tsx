@@ -38,10 +38,13 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
                 Hello! I'm Hongpeng, a passionate developer based in the digital cosmos. I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between.
               </p>
               <p>
-                My journey began when I decided to try editing custom Tumblr themes — turns out hacking together HTML & CSS is pretty fun!
+                My journey began when I decided to try creating my own website (first on Wix and Webflow, then on Vanilla HTML, then this) — turns out hacking together HTML & CSS is pretty fun!
               </p>
               <p>
-                Fast-forward to today, and I've had the privilege of working at an advertising agency, a start-up, and a huge corporation. My main focus these days is building accessible, inclusive products and digital experiences.
+                Fast-forward to today, and I've had the privilege of studying computing in school. I have learnt important digital skills like Python, SQL, Flask, and HTML. These days, I'm focused on mastering React and Vite, while building accessible solutions for real-world problems!
+              </p>
+              <p>
+                When I'm not coding, you'll find me exploring the latest football/soccer news (I'm a huge Man City fan), reading novels, or experimenting with new ways to beat the bosses in Soul Knight. You can check out some of my past projects below or on GitHub!
               </p>
             </div>
             
@@ -50,12 +53,12 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
                 Tech Stack
                </h3>
                <ul className={`grid grid-cols-2 gap-2 text-sm font-mono ${isDarkMode ? 'text-gray-400' : 'text-slate-500'}`}>
+                 <li className="flex items-center gap-2">▹ Python</li>
                  <li className="flex items-center gap-2">▹ JavaScript (ES6+)</li>
-                 <li className="flex items-center gap-2">▹ React</li>
-                 <li className="flex items-center gap-2">▹ TypeScript</li>
-                 <li className="flex items-center gap-2">▹ Node.js</li>
+                 <li className="flex items-center gap-2">▹ SQL</li>
+                 <li className="flex items-center gap-2">▹ Flask</li>
                  <li className="flex items-center gap-2">▹ Tailwind CSS</li>
-                 <li className="flex items-center gap-2">▹ Next.js</li>
+                 <li className="flex items-center gap-2">▹ HTML</li>
                </ul>
             </div>
           </div>

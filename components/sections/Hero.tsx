@@ -16,12 +16,12 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
             : 'bg-blue-600/10 border-blue-600/20 text-blue-700'
           }`}
         >
-          Frontend Developer & UI Designer
+          Student, Full-Stack & UX
         </div>
         
         <h1 className="text-6xl md:text-8xl font-bold tracking-tight mb-6 relative">
           <span className={`block ${isDarkMode ? 'text-white' : 'text-slate-900'}`}>
-            Crafting Digital
+            Building Digital
           </span>
           <span className={`block bg-clip-text text-transparent bg-gradient-to-r ${
             isDarkMode ? 'from-blue-400 to-purple-500' : 'from-blue-600 to-indigo-600'
@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
         <p className={`max-w-2xl text-lg md:text-xl mb-10 leading-relaxed
           ${isDarkMode ? 'text-gray-400' : 'text-slate-600'}
         `}>
-          I build accessible, pixel-perfect, and performant web experiences that are out of this world.
+          I build accessible, pixel-perfect, and fun tech solutions that are out of this world.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">

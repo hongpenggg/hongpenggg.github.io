@@ -5,7 +5,7 @@ export const NAV_LINKS: NavLink[] = [
   { name: "Home", href: "#home" },
   { name: "About Me", href: "#about" },
   { name: "Projects", href: "#projects" },
-  { name: "CV", href: "https://example.com/cv.pdf", external: true },
+  { name: "CV", href: "https://pdfhost.io/v/VnOpMQ1jv_Hongpeng_Weis_Curriculum_Vitae", external: true },
   { name: "Contact Me", href: "#contact" },
 ];
 
@@ -13,32 +13,32 @@ export const PROJECTS: Project[] = [
   {
     title: "Arcana Mystica",
     description: "A mystical tarot card webapp and encyclopedia acting as a digital oracle. Features AI-powered interpretations to help users understand their spreads, providing deep, personalized spiritual insights through a modern interface.",
-    tags: ["React", "OpenAI API", "Framer Motion", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1634906979668-2b2207a9e627?q=80&w=800&auto=format&fit=crop",
-    link: "#",
-    github: "#"
+    tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
+    image: ".github/assets/arcana.jpeg",
+    link: "https://hongpenggg.github.io/arcana",
+    github: "https://github.com/hongpenggg/arcana"
   },
   {
     title: "ScentWorld",
     description: "An innovative fragrance mixing platform with over 200+ sourced notes from Fragrantica. Users create custom blends while AI weaves evocative stories and memories associated with their unique scent combinations.",
-    tags: ["Next.js", "AI Integration", "PostgreSQL", "Chemistry API"],
-    image: "https://images.unsplash.com/photo-1595456488737-25e227092c28?q=80&w=800&auto=format&fit=crop",
-    link: "#",
-    github: "#"
+    tags: ["HTML", "Openrouter API", "CSS", "JavaScript"],
+    image: ".github/assets/scentworld.jpeg",
+    link: "https://hongpenggg.github.io/scentworld",
+    github: "https://github.com/hongpenggg/scentworld"
   },
   {
     title: "Landing",
-    description: "My personal portal to the digital universe. A fully immersive landing page featuring procedural star systems, ambient audio-reactive visuals, and navigational gateways connecting all my digital works.",
-    tags: ["Three.js", "WebAudio API", "React", "WebGL"],
-    image: "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
-    link: "#",
-    github: "#"
+    description: "My personal portal to the digital universe. A fully immersive landing page featuring ambient audio-reactive visuals and navigational gateways connecting all my digital works.",
+    tags: ["HTML", "CSS", "JavaScript"],
+    image: ".github/assets/landing.jpeg",
+    link: "https://hongpenggg.github.io/landing",
+    github: "https://github.com/hongpenggg/landing"
   }
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { platform: "GitHub", url: "https://github.com", icon: Github },
-  { platform: "LinkedIn", url: "https://linkedin.com", icon: Linkedin },
-  { platform: "Twitter", url: "https://twitter.com", icon: Twitter },
-  { platform: "Email", url: "mailto:hello@example.com", icon: Mail },
+  { platform: "GitHub", url: "https://github.com/hongpenggg", icon: Github },
+  { platform: "LinkedIn", url: "https://linkedin.com/in/hongpengwei", icon: Linkedin },
+  { platform: "Instagram", url: "https://instagram.com/hongpenggg", icon: Twitter },
+  { platform: "Email", url: "mailto:wei.hongpeng.2023@vjc.edu.sg", icon: Mail },
 ];
