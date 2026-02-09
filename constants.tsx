@@ -14,7 +14,7 @@ export const PROJECTS: Project[] = [
     title: "Arcana Mystica",
     description: "A mystical tarot card webapp and encyclopedia acting as a digital oracle. Features AI-powered interpretations to help users understand their spreads, providing deep, personalized spiritual insights through a modern interface.",
     tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
-    image: "https://github.com/hongpenggg/hongpenggg.github.io/blob/6715bff57bb66f51c29a1fbc0a251a429e035e9c/.github/assets/arcana.jpeg",
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/arcana.jpeg",
     link: "https://hongpenggg.github.io/arcana",
     github: "https://github.com/hongpenggg/arcana"
   },
@@ -22,7 +22,7 @@ export const PROJECTS: Project[] = [
     title: "ScentWorld",
     description: "An innovative fragrance mixing platform with over 200+ sourced notes from Fragrantica. Users create custom blends while AI weaves evocative stories and memories associated with their unique scent combinations.",
     tags: ["HTML", "Openrouter API", "CSS", "JavaScript"],
-    image: "https://github.com/hongpenggg/hongpenggg.github.io/blob/6715bff57bb66f51c29a1fbc0a251a429e035e9c/.github/assets/scentworld.jpeg",
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/scentworld.jpeg",
     link: "https://hongpenggg.github.io/scentworld",
     github: "https://github.com/hongpenggg/scentworld"
   },
@@ -30,7 +30,7 @@ export const PROJECTS: Project[] = [
     title: "Landing",
     description: "My personal portal to the digital universe. A fully immersive landing page featuring ambient audio-reactive visuals and navigational gateways connecting all my digital works.",
     tags: ["HTML", "CSS", "JavaScript"],
-    image: "https://github.com/hongpenggg/hongpenggg.github.io/blob/6715bff57bb66f51c29a1fbc0a251a429e035e9c/.github/assets/landing.jpeg",
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/landing.jpeg",
     link: "https://hongpenggg.github.io/landing",
     github: "https://github.com/hongpenggg/landing"
   }
