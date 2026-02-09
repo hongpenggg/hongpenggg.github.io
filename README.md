@@ -1,7 +1,20 @@
-This is my personal website. 
+<div align="center">
+<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+</div>
 
-You can view it at https://hongpenggg.github.io/
+# Run and deploy your AI Studio app
 
-Not complete, with plans to improve site looks and animations soon.
+This contains everything you need to run your app locally.
 
-For current website, go to [hongpeng.webflow.io](https://hongpeng.webflow.io/) or [beacons.ai/hongpeng](https://beacons.ai/hongpeng) :)
+View your app in AI Studio: https://ai.studio/apps/drive/16i_iVSNXFTeOZMBhMpZxr12ogajexTjn
+
+## Run Locally
+
+**Prerequisites:**  Node.js
+
+
+1. Install dependencies:
+   `npm install`
+2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+3. Run the app:
+   `npm run dev`
