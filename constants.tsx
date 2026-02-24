@@ -20,7 +20,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: "ScentWorld",
-    description: "An innovative fragrance mixing platform with over 200+ sourced notes from Fragrantica. Users create custom blends while AI weaves evocative stories and memories associated with their unique scent combinations.",
+    description: "An innovative fragrance mixing platform with over 200+ sourced notes from Fragrantica. Users create custom blends while AI weaves evocative stories and memories associated with their unique scent combinations. In version 2, classic and timeless fragrances by legendary perfume houses like Chanel, Dior and Armani are added as 'preset blends' for users to explore and draw inspiration from.",
     tags: ["HTML", "Openrouter API", "CSS", "JavaScript"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/scentworld.jpeg",
     link: "https://hongpenggg.github.io/scentworld",
@@ -33,6 +33,14 @@ export const PROJECTS: Project[] = [
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/landing.jpeg",
     link: "https://hongpenggg.github.io/landing",
     github: "https://github.com/hongpenggg/landing"
+  },
+  {
+    title: "Echoes of Wisdom - Debate Simulator",
+    description: "An AI-powered debate simulator that generates thought-provoking arguments and counterarguments on a wide range of topics. Users can engage in virtual debates with AI opponents (historical and fictional thinkers, ranging from Socrates to Tywin Lannister), enhancing critical thinking and communication skills.",
+    tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/echoes.jpeg",
+    link: "https://hongpenggg.github.io/echoes",
+    github: "https://github.com/hongpenggg/echoes"
   }
 ];
 

@@ -22,7 +22,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
             `}></div>
             <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <img 
-                  src="../../.github/assets/hongpeng.jpeg" 
+                  src="https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/hongpeng.jpeg" 
                   alt="Hongpeng Wei" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />

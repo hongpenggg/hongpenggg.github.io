@@ -16,7 +16,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
             : 'bg-blue-600/10 border-blue-600/20 text-blue-700'
           }`}
         >
-          Student, Full-Stack & UX
+          Student, Data Science, UX (& sometimes Full-Stack)
         </div>
         
         <h1 className="text-6xl md:text-8xl font-bold tracking-tight mb-6 relative">
@@ -33,7 +33,7 @@ const Hero: React.FC<HeroProps> = ({ isDarkMode }) => {
         <p className={`max-w-2xl text-lg md:text-xl mb-10 leading-relaxed
           ${isDarkMode ? 'text-gray-400' : 'text-slate-600'}
         `}>
-          I build accessible, pixel-perfect, and fun tech solutions that are out of this world.
+          I harness psychology, data, and AI to build accessible, pixel-perfect, and fun tech solutions that solve real-world problems at scale.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4">
