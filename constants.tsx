@@ -46,7 +46,7 @@ export const PROJECTS: Project[] = [
     title: "TowOK: Hawker Delivery Aggregator Platform",
     description: "A platform that aggregates hawker food delivery services, allowing hawkers to browse, edit, track, and manage deliveries from multiple local platforms like Grab, Deliveroo, FoodPanda etc, and speed up and streamline their operations with a unified dashboard. Proof of concept for school project.",
     tags: ["Figma", "Photoshop", "HTML", "Canva"],
-    image: "https://github.com/hongpenggg/hongpenggg.github.io/blob/584f8a14c364bfdd07293da58c9f1fd4f17f4840/.github/assets/towok.jpeg",
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/towok.jpeg",
     link: "https://www.figma.com/proto/XDWmYZhHJvrpjYcmhoX3N0/Hawker-Integration?type=design&t=mQ5VS0fYs7fs0LO6-1&scaling=scale-down&page-id=0%3A1&node-id=5-14&starting-point-node-id=5%3A14&mode=design",
     github: "https://github.com/hongpenggg/"
   },
@@ -54,7 +54,7 @@ export const PROJECTS: Project[] = [
     title: "TrainEffective App Redesign",
     description: "Undertook a comprehensive redesign of the TrainEffective fitness app, enhancing user experience and visual appeal. The redesign focused on creating a more intuitive interface, improving navigation, and incorporating modern design principles to increase user engagement and satisfaction.",
     tags: ["Figma", "Photoshop", "HTML", "Canva"],
-    image: "https://github.com/hongpenggg/hongpenggg.github.io/blob/584f8a14c364bfdd07293da58c9f1fd4f17f4840/.github/assets/traineffective.jpeg",
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/traineffective.jpeg",
     link: "https://www.figma.com/proto/hg4t2yBqvW8ZTSizVBK0Cb/TrainEffective-App?type=design&node-id=1-2&t=Tg6MNPzmqpJa2IUQ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
     github: "https://github.com/hongpenggg/"
   }
