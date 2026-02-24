@@ -22,7 +22,7 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
             `}></div>
             <div className="relative aspect-square rounded-2xl overflow-hidden">
                 <img 
-                  src="https://picsum.photos/800/800?random=10" 
+                  src="../../.github/assets/hongpeng.jpeg" 
                   alt="Hongpeng Wei" 
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                 />
@@ -41,10 +41,13 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
                 My journey began when I decided to try creating my own website (first on Wix and Webflow, then on Vanilla HTML, then this) — turns out hacking together HTML & CSS is pretty fun!
               </p>
               <p>
-                Fast-forward to today, and I've had the privilege of studying computing in school. I have learnt important digital skills like Python, SQL, Flask, and HTML. These days, I'm focused on mastering React and Vite, while building accessible solutions for real-world problems!
+                I've had the privilege of studying computing in school. I have learnt important digital skills like Python, SQL, Flask, and HTML. These days, I'm slowly mastering React and Vite, while building accessible solutions for real-world problems.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring the latest football/soccer news (I'm a huge Man City fan), reading novels, or experimenting with new ways to beat the bosses in Soul Knight. You can check out some of my past projects below or on GitHub!
+                I'm interested in data science and machine learning, and I hope to use my knowledge in solving meaningful real-world problems at-scale, especially in transport and aviation. I also have a soft spot for UI/UX design and love crafting pixel-perfect interfaces that are both beautiful and functional.
+              </p>
+              <p>
+                When I'm not coding, you'll find me exploring the latest football/soccer news (I'm a huge Man City fan), reading novels, or experimenting with new ways to beat the old guard on Suzerain (or Hugo, on the Rizia DLC). You can check out some of my past projects below or on GitHub.
               </p>
             </div>
             
@@ -54,11 +57,15 @@ const About: React.FC<AboutProps> = ({ isDarkMode }) => {
                </h3>
                <ul className={`grid grid-cols-2 gap-2 text-sm font-mono ${isDarkMode ? 'text-gray-400' : 'text-slate-500'}`}>
                  <li className="flex items-center gap-2">▹ Python</li>
-                 <li className="flex items-center gap-2">▹ JavaScript (ES6+)</li>
+                 <li className="flex items-center gap-2">▹ JavaScript</li>
                  <li className="flex items-center gap-2">▹ SQL</li>
                  <li className="flex items-center gap-2">▹ Flask</li>
                  <li className="flex items-center gap-2">▹ Tailwind CSS</li>
+                 <li className="flex items-center gap-2">▹ TypeScript</li>
                  <li className="flex items-center gap-2">▹ HTML</li>
+                 <li className="flex items-center gap-2">▹ CSS</li>
+                 <li className="flex items-center gap-2">▹ Pandas</li>
+                 <li className="flex items-center gap-2">▹ Scikit-Learn</li>
                </ul>
             </div>
           </div>

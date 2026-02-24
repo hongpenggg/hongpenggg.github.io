@@ -1,11 +1,11 @@
 import { NavLink, Project, SocialLink } from "./types";
-import { Github, Linkedin, Twitter, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, InstagramIcon } from "lucide-react";
 
 export const NAV_LINKS: NavLink[] = [
   { name: "Home", href: "#home" },
   { name: "About Me", href: "#about" },
   { name: "Projects", href: "#projects" },
-  { name: "CV", href: "https://pdfhost.io/v/VnOpMQ1jv_Hongpeng_Weis_Curriculum_Vitae", external: true },
+  { name: "CV", href: "https://github.com/hongpenggg/hongpenggg.github.io/blob/5c4180d6b783fd313ee8fbe0c3afbf8ce5c08baf/.github/assets/hongpeng_cv.pdf", external: true },
   { name: "Contact Me", href: "#contact" },
 ];
 
@@ -39,6 +39,6 @@ export const PROJECTS: Project[] = [
 export const SOCIAL_LINKS: SocialLink[] = [
   { platform: "GitHub", url: "https://github.com/hongpenggg", icon: Github },
   { platform: "LinkedIn", url: "https://linkedin.com/in/hongpengwei", icon: Linkedin },
-  { platform: "Instagram", url: "https://instagram.com/hongpenggg", icon: Twitter },
+  { platform: "Instagram", url: "https://instagram.com/hongpenggg", icon: InstagramIcon },
   { platform: "Email", url: "mailto:wei.hongpeng.2023@vjc.edu.sg", icon: Mail },
 ];
