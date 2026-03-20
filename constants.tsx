@@ -15,7 +15,7 @@ export const PROJECTS: Project[] = [
     description: "A mystical tarot card webapp and encyclopedia acting as a digital oracle. Features AI-powered interpretations to help users understand their spreads, providing deep, personalized spiritual insights through a modern interface.",
     tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/arcana.jpeg",
-    link: "https://hongpenggg.github.io/arcana",
+    link: "https://arcanamystica.vercel.app",
     github: "https://github.com/hongpenggg/arcana"
   },
   {
@@ -23,7 +23,7 @@ export const PROJECTS: Project[] = [
     description: "An innovative fragrance mixing platform with over 200+ sourced notes from Fragrantica. Users create custom blends while AI weaves evocative stories and memories associated with their unique scent combinations. In version 2, classic and timeless fragrances by legendary perfume houses like Chanel, Dior and Armani are added as 'preset blends' for users to explore and draw inspiration from.",
     tags: ["HTML", "Openrouter API", "CSS", "JavaScript"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/scentworld.jpeg",
-    link: "https://hongpenggg.github.io/scentworld",
+    link: "https://scentworld.vercel.app",
     github: "https://github.com/hongpenggg/scentworld"
   },
   {
@@ -39,7 +39,7 @@ export const PROJECTS: Project[] = [
     description: "An AI-powered debate simulator that generates thought-provoking arguments and counterarguments on a wide range of topics. Users can engage in virtual debates with AI opponents (historical and fictional thinkers, ranging from Socrates to Tywin Lannister), enhancing critical thinking and communication skills.",
     tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/echoes.jpeg",
-    link: "https://hongpenggg.github.io/echoes",
+    link: "https://echoesofwisdom.vercel.app",
     github: "https://github.com/hongpenggg/echoes"
   },
   {
