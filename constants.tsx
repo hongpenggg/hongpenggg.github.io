@@ -5,7 +5,7 @@ export const NAV_LINKS: NavLink[] = [
   { name: "Home", href: "#home" },
   { name: "About Me", href: "#about" },
   { name: "Projects", href: "#projects" },
-  { name: "CV", href: "https://docs.google.com/viewer?url=https://github.com/hongpenggg/hongpenggg.github.io/blob/5c4180d6b783fd313ee8fbe0c3afbf8ce5c08baf/.github/assets/hongpeng_cv.pdf", external: true },
+  { name: "CV", href: "https://github.com/hongpenggg/hongpenggg.github.io/blob/5c4180d6b783fd313ee8fbe0c3afbf8ce5c08baf/.github/assets/hongpeng_cv.pdf", external: true },
   { name: "Contact Me", href: "#contact" },
 ];
 
@@ -63,7 +63,7 @@ export const PROJECTS: Project[] = [
     description: "Conducted study and literature review of the applications of AR/VR technologies in training soldiers for combat in SEA-specific geography, such as rainforests. Studied the use of computer vision with Lidar to detect and map obstacles and hostile threats.",
     tags: ["TensorFlow", "Keras", "Deep Learning", "Computer Vision", "Augmented Reality"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/troopdrop.jpg",
-    link: "https://docs.google.com/document/d/1vuvTYZdB8s4MjiwKac1omQTS_RwdHjFt_pgg43cS_SU/edit?usp=sharing",
+    link: "https://github.com/hongpenggg/hongpenggg.github.io/blob/master/.github/assets/DSTA%20Paper.pdf",
     github: "https://github.com/hongpenggg/"
   }
 ];
