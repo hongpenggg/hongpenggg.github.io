@@ -5,7 +5,7 @@ export const NAV_LINKS: NavLink[] = [
   { name: "Home", href: "#home" },
   { name: "About Me", href: "#about" },
   { name: "Projects", href: "#projects" },
-  { name: "CV", href: "https://github.com/hongpenggg/hongpenggg.github.io/blob/5c4180d6b783fd313ee8fbe0c3afbf8ce5c08baf/.github/assets/hongpeng_cv.pdf", external: true },
+  { name: "CV", href: "https://docs.google.com/viewer?url=https://github.com/hongpenggg/hongpenggg.github.io/blob/5c4180d6b783fd313ee8fbe0c3afbf8ce5c08baf/.github/assets/hongpeng_cv.pdf", external: true },
   { name: "Contact Me", href: "#contact" },
 ];
 
