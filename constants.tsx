@@ -57,6 +57,14 @@ export const PROJECTS: Project[] = [
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/traineffective.jpeg",
     link: "https://www.figma.com/proto/hg4t2yBqvW8ZTSizVBK0Cb/TrainEffective-App?type=design&node-id=1-2&t=Tg6MNPzmqpJa2IUQ-1&scaling=scale-down&page-id=0%3A1&starting-point-node-id=1%3A2&mode=design",
     github: "https://github.com/hongpenggg/"
+  },
+  {
+    title: "TroopDrop",
+    description: "Conducted study and literature review of the applications of AR/VR technologies in training soldiers for combat in SEA-specific geography, such as rainforests. Studied the use of computer vision with Lidar to detect and map obstacles and hostile threats.",
+    tags: ["TensorFlow", "Keras", "Deep Learning", "Computer Vision", "Augmented Reality"],
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/troopdrop.jpg",
+    link: "https://docs.google.com/document/d/1vuvTYZdB8s4MjiwKac1omQTS_RwdHjFt_pgg43cS_SU/edit?usp=sharing",
+    github: "https://github.com/hongpenggg/"
   }
 ];
 
