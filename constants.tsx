@@ -13,7 +13,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Arcana Mystica",
     description: "A mystical tarot card webapp and encyclopedia acting as a digital oracle. Features AI-powered interpretations to help users understand their spreads, providing deep, personalized spiritual insights through a modern interface.",
-    tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
+    tags: ["React", "Vite", "Node.js", "Openrouter API", "TypeScript", "Tailwind"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/arcana.jpeg",
     link: "https://arcanamystica.vercel.app",
     github: "https://github.com/hongpenggg/arcana"
@@ -37,7 +37,7 @@ export const PROJECTS: Project[] = [
   {
     title: "Echoes of Wisdom - Debate Simulator",
     description: "An AI-powered debate simulator that generates thought-provoking arguments and counterarguments on a wide range of topics. Users can engage in virtual debates with AI opponents (historical and fictional thinkers, ranging from Socrates to Tywin Lannister), enhancing critical thinking and communication skills.",
-    tags: ["React", "Openrouter API", "TypeScript", "Tailwind"],
+    tags: ["React", "Vite", "Node.js", "Openrouter API", "TypeScript", "Tailwind"],
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/echoes.jpeg",
     link: "https://echoesofwisdom.vercel.app",
     github: "https://github.com/hongpenggg/echoes"
@@ -65,7 +65,39 @@ export const PROJECTS: Project[] = [
     image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/troopdrop.jpg",
     link: "https://docs.google.com/viewer?url=https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/Troopdrop_Paper.pdf",
     github: "https://github.com/hongpenggg/"
-  }
+  },
+  {
+    title: "Ruby Phoenixes Football Platform",
+    description: "Worked with staff and coaches from Ruby Phoenixes FC and MCCY to develop a web-based platform for tracking player development and improvement with data-oriented approach.",
+    tags: ["React", "Vite", "Node.js", "TypeScript", "Tailwind", "Supabase"],
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/ruby_phoenixes.jpeg",
+    link: "https://rubyphoenixes.vercel.app",
+    github: "https://github.com/hongpenggg/ruby-phoenixes"
+  },
+  {
+    title: "Il Consigliere RPG",
+    description: "1940s post-war noir mafia RPG based on Suzerain. Every choice has a consequence. Some are out to help you, more are out to get you.",
+    tags: ["React", "Vite", "Node.js", "OpenRouter API", "TypeScript", "Tailwind", "Supabase", "Google Auth"],
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/il_consigliere.jpeg",
+    link: "https://il-consigliere.vercel.app",
+    github: "https://github.com/hongpenggg/il_consigliere"
+  },
+  {
+    title: "Bit by Bit Coding Website",
+    description: "Developed front-facing website for Bit by Bit Coding, the non-profit coding education groundup that I run with a team of passionate volunteers. Website handled >100 users with >1.5k events. High engagement with >40s average time spent.",
+    tags: ["React", "Vite", "Node.js", "TypeScript", "Tailwind", "Tally API", "Google Analytics"],
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/bbb_website.jpeg",
+    link: "https://bbbcoding.vercel.app",
+    github: "https://github.com/bitbybitcoding/bitbybitcoding.github.io"
+  },
+  {
+    title: "Bit by Bit Coding Playground",
+    description: "Developed Bit by Bit Coding's web playground for students to attempt extra challenges after lessons and practice anywhere.",
+    tags: ["React", "Next.js", "Node.js", "TypeScript", "Tailwind", "Supabase", "Google Auth", "Pyodide"],
+    image: "https://raw.githubusercontent.com/hongpenggg/hongpenggg.github.io/master/.github/assets/bbb_playground.jpeg",
+    link: "https://bbbplayground.vercel.app",
+    github: "https://github.com/bitbybitcoding/playground"
+  },
 ];
 
 export const SOCIAL_LINKS: SocialLink[] = [
